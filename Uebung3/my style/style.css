@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana;
+    background-color: #171637;
+}
+
+header {
+    background-color: #fbfbfb92;
+    color: #030028;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px  ;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: #0707df40 0px 12px 24px -2px, #fc00004d 0px 3px 7px -3px;
+    border-radius: 5px;
+
+    
+}
+
+.wrapper{
+    margin-top:3%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3%;
+    row-gap: 3%;
+    margin-bottom: 3%;
+}
+
+.citycard{
+    display:gard;
+    grid-template-rows: 5fr 1fr;
+    background-color: #56ccdc68;
+    box-shadow: #0707df40 0px 12px 24px -2px, #fc00004d 0px 3px 7px -3px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.cityimage {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.cityimage img {
+    width: auto;
+    height: 297px;
+}
+
+.cityname{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style:calc(22) ;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 3%;
+        color: aliceblue;
+    }
